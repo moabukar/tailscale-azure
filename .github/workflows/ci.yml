@@ -2,7 +2,9 @@ name: tailscale
 
 on:
   push:
-    branches: main
+    paths:
+      - /docker
+      - .github/workflows/ci.yml
 
 jobs:
   build-and-publish:
