@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: sophware01/tsbastionazure:0.1.0
+          tags: moabukar/tailscale-azure:v1
