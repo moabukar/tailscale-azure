@@ -3,7 +3,7 @@ name: tailscale
 on:
   push:
     paths:
-      - ./docker
+      - docker/
       - .github/workflows/ci.yml
 
 jobs:
