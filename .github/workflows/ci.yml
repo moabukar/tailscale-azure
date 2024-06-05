@@ -25,5 +25,5 @@ jobs:
       run: |
         registry="moabukar"
         tag="tailscale-azure:latest"
-        docker build -f docker/Dockerfile -t ${registry}/${tag}
+        docker build -t ${registry}/${tag} -f ./docker/Dockerfile ./docker
         docker push ${registry}/${tag}
